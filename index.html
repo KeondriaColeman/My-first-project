@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Haven</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a href="#" class="logo">
+            <img src="./images/new-dragon.png" alt="Dragon Haven Logo">
+        </a>
+        <div class="navbar">
+            <nav class="navigation">
+                <ul style="display: flex; list-style-type: none; gap: 20px; padding: 0px;">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="container">
+            <div>
+                <h1>Welcome to Dragon Haven</h1>
+                <p>Your first project template for showcasing ideas and stories.</p>
+                <a href="#about" class="button">Learn More</a>
+            </div>
+        </section>
+        <section id="about" class="section about">
+            <div class="container">
+                <h2>About Dragon Haven</h2>
+                <p>Dragon Haven is a simple website template ideal for a first project. Use it to showcase your ideas, share a story, or introduce your services.</p>
+            </div>
+        </section>
+
+        <section id="features" class="section features">
+            <div class="container grid">
+                <article class="card">
+                    <h3>Easy to use</h3>
+                    <p>A clean layout and simple code make this page perfect for beginners and learning HTML/CSS.</p>
+                </article>
+                <article class="card">
+                    <h3>Responsive</h3>
+                    <p>The design adapts to smaller screens with a mobile-friendly navigation and stacked content.</p>
+                </article>
+                <article class="card">
+                    <h3>Customizable</h3>
+                    <p>Change colors, text, and sections to make the site your own in just a few edits.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <div class="container contact-inner">
+                <div>
+                    <h2>Get in touch</h2>
+                    <p>Try the contact form below or update this section with your own information.</p>
+                </div>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="your@email.com">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Your message"></textarea>
+
+                    <button type="submit" class="button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Dragon Haven. Built with HTML and CSS.</p>
+        </div>
+    </footer>
+</body>
+</html>
